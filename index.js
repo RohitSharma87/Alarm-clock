@@ -13,7 +13,11 @@ function setalarm(){
 
 function pause(){
     
-    location.reload()
+     alarmsound.pause()
+    alarmimage.src="800px-Alarm_Clock_Animation_High_Res.png"
+    setalarmtime.innerHTML="00:00:00"
+    hourshtml.value="Hours"
+    minuteshtml.value="Minutes"
    }
 
 let checkinterval=setInterval(()=>{
